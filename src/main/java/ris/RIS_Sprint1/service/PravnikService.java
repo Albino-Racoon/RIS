@@ -41,7 +41,7 @@ public class PravnikService {
         }
         pravnikRepository.save(pravnik);
     }
-
+//jaksjfojedo
     @Transactional
     public void updatePravnik(Long pravnikId, String ime, String email) {
         Pravnik pravnik = pravnikRepository.findById(pravnikId).orElseThrow(() -> new IllegalStateException("Pravnik s id: " + pravnikId + " ne obstaja."));
