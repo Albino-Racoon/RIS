@@ -11,7 +11,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping(path = "api/v1/pravnik")
 public class PravnikController {
-//aaaqjhvgooub
+//aaaqjhvooub
     private final PravnikService pravnikService;
 
     @Autowired
